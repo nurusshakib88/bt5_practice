@@ -1,0 +1,25 @@
+* {
+	font-size: 20px;
+}
+
+.grid , .collumn, .space, .gutters, .background, .border {
+	margin: 20px 0;
+}
+
+.box {
+	height: 50px;
+	background-color: darkcyan;
+	font-size: 20px;
+	color: white;
+}
+
+.mh_100 {
+	min-height: 100px;
+	background-color: #9ff2ff;
+}
+
+
+.align {
+	text-align: center;
+}
+

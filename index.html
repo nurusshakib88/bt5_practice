@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>bootstrap practice</title>
+  </head>
+  <body>
+
+<section class="grid">
+
+  <div class="container">
+
+<!-- grid -->
+
+    <h2>Grid</h2>
+
+      <div class="row space">
+
+          <div class="col-lg-4">
+            <div class="box"></div>
+          </div>
+
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="box"></div>
+          </div>
+
+      </div>
+
+      <div class="row space">
+
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+           <div class="col-lg-3">
+            <div class="box"></div>
+          </div>
+
+           <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+           <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+           <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+           <div class="col-lg">
+            <div class="box"></div>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+<!-- grid flex  -->
+
+
+
+<!-- column -->
+<section class="collumn">
+
+  <div class="container">
+
+    <h2>Vertical alignment</h2>
+
+      <div class="row align-items-start mh_100 space">
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+      </div>
+
+      <div class="row align-items-center mh_100 space">
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+      </div>
+
+      <div class="row align-items-end mh_100 space">
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg">
+            <div class="box"></div>
+          </div>
+      </div>
+
+
+      <div class="row mh_100 space">      
+        <div class="col-lg align-self-start">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg align-self-center">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg align-self-end">
+          <div class="box"></div>
+        </div>
+      </div>
+
+
+    <h2>Horizontal alignment</h2>
+
+      <div class="row justify-content-start space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-end space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-around space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-between space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+
+
+
+    <h2>Column breaks</h2>
+
+      <div class="row space">
+        <div class="col-lg-6 col-sm-3">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="box"></div>
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+
+        <div class="col-lg-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="box"></div>
+        </div>
+      </div>
+
+    <h2>Reordering</h2>
+
+      <div class="row space">
+        <div class="col-lg">
+          <div class="box">First in DOM, no order applied</div>
+        </div>
+        <div class="col-lg order-4">
+          <div class="box">Second in DOM, with a larger order</div>
+        </div>
+        <div class="col-lg order-1">
+          <div class="box">Third in DOM, with an order of 1</div>
+        </div>
+      </div>
+
+
+  <h2>Offsetting column</h2>
+
+      <div class="row space">
+        <div class="col-lg-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4 offset-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row space">
+        <div class="col-lg-6 offset-3">
+          <div class="box"></div>
+        </div>
+      </div>
+
+
+      <h2>Margin utilities</h2>
+
+      <div class="row space">
+        <div class="col-lg-4">
+          <div class="box">.col-lg-4</div>
+        </div>
+
+        <div class="col-lg-4 ms-auto">
+          <div class="box">.col-lg-4 .ms-auto</div>        
+        </div>
+      </div>
+
+      <div class="row space">
+        <div class="col-lg-3 ms-auto">
+          <div class="box">.col-lg-3 .ms-lg-auto</div>
+        </div>
+
+        <div class="col-lg-3 ms-auto">
+         <div class="box">.col-lg-3 .ms-lg-auto</div>
+        </div>
+      </div>
+
+      <div class="row space">
+        <div class="col-auto me-auto">
+          <div class="box">.col-auto .me-auto</div>
+        </div>
+        <div class="col-auto">
+          <div class="box">.col-auto</div>
+        </div>
+      </div>
+
+
+    <h2>Standalone column classes</h2>
+
+      <div class="col-3 bg-light p-3 border">
+        .col-3: width of 25%
+      </div>
+      <div class="col-lg-6 bg-light p-3 border">
+        .col-lg-6: width of 50% above lg breakpoint
+      </div>
+
+  </div>
+</section>
+
+
+<!-- column -->
+
+
+
+<!-- gutters -->
+
+<section class="gutters">
+
+  <div class="container px-4">
+    <h2>Horizontal gutters</h2>
+  <div class="row gx-5">
+    <div class="col-lg">
+       <div class="p-5 border bg-light">
+       <div class="box">Custom column padding</div>
+       </div>
+    </div>
+    <div class="col-lg">
+      <div class="p-5 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container overflow-hidden">
+  <h2>Vertical gutters</h2>
+  <div class="row gy-5">
+    <div class="col-lg-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <h2>Horizontal & vertical gutters</h2>
+  <div class="row g-2">
+    <div class="col-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="p-3 border bg-light">
+        <div class="box">Custom column padding</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+<!-- gutters -->
+
+
+
+<!-- background -->
+<section class="background">
+
+  <div class="container">
+    <h2>Background color</h2>
+      <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+    <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+    <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+    <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+    <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+    <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+    <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+
+  </div>
+</section>
+
+<!-- background -->
+
+
+<!-- border -->
+  
+  <div class="container">
+
+    <h2>Border (Additive, Subtractive, Color, Width, Radius)</h2>
+
+    <div class="row">
+    
+        <div class="col-lg">
+          <div class="box border border-5 border-warning">border-5 warning</div>
+        </div>
+        <div class="col-lg">
+          <div class="box border border-5 border-top-0 border-dark">top-0 dark</div>
+        </div>
+        <div class="col-lg">
+          <div class="box border border-5 border-start-0 border-danger">start-0 danger</div>
+        </div>
+        <div class="col-lg align">
+          <div class="box border rounded-pill">rounded-pill</div>
+        </div>
+
+    </div>
+  </div>
+
+
+<!-- border -->
+
+
+<!-- position -->
+
+
+<div class="container">
+  <h2>Position</h2>
+
+      <div class="position-relative m-4">
+      <div class="progress" style="height: 1px;">
+        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+      <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+      <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+    </div>
+
+
+</div>
+
+<!-- position -->
+
+
+
+<!-- shadow -->
+
+<div class="container">
+  <h2>Shadow</h2>
+
+  <div class="row">
+    
+    <div class="col-lg">
+      <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+    </div>
+    <div class="col-lg">
+      <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+    </div>
+    <div class="col-lg">
+      <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+    </div>
+    <div class="col-lg">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+    </div>
+  </div>
+
+    
+
+
+</div>
+
+
+<!-- shadow -->
+
+
+
+
+<!-- form -->
+
+<div class="container">
+
+  <h2>Form</h2>
+
+
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="f_name" class="form-label">First name</label>
+        <input type="text" class="form-control" id="f_name" placeholder="Enter your First Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="l_name" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="l_name" placeholder="Enter your last Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="username" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="username">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="city_name" class="form-label">City</label>
+        <input type="text" class="form-control" id="city_name" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="state_name" class="form-label">State</label>
+        <select class="form-select" id="state_name" required>
+          <option selected disabled value="">Choose...</option>
+          <option>Dhaka</option>
+          <option>Narayanganj</option>
+          <option>Savar</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="zip_code" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="zip_code" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+
+
+</div>
+
+
+
+
+    <!--JS Links -->
+   
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+   
+  </body>
+</html>
